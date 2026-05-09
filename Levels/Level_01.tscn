@@ -1370,6 +1370,9 @@ position = Vector2( 240, 160 )
 [node name="apple2" parent="Fruits" instance=ExtResource( 9 )]
 position = Vector2( 352, 0 )
 
+[node name="apple3" parent="Fruits" instance=ExtResource( 9 )]
+position = Vector2( 1488, 32 )
+
 [connection signal="body_entered" from="fall-zone" to="fall-zone" method="_on_fallzone_body_entered"]
 [connection signal="body_entered" from="fall-zone2" to="fall-zone2" method="_on_fallzone_body_entered"]
 [connection signal="body_entered" from="fall-zone3" to="fall-zone3" method="_on_fallzone_body_entered"]
