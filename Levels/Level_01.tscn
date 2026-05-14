@@ -1299,7 +1299,7 @@ shape = SubResource( 53 )
 motion_mirroring = Vector2( 576, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/sky"]
-position = Vector2( -64, -96 )
+position = Vector2( -64, -176 )
 scale = Vector2( 2, 2 )
 texture = ExtResource( 2 )
 centered = false
